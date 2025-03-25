@@ -140,3 +140,5 @@ if uploaded_file:
     if st.button("Generate Animation from Slices"):
         output_video = animate_slices(image_stack)
         st.video(output_video)
+
+print("ok")
